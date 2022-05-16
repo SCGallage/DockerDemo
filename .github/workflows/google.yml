@@ -56,7 +56,7 @@ jobs:
       with:
         token_format: 'access_token'
         workload_identity_provider: 'projects/98487683765/locations/global/workloadIdentityPools/my-pool/providers/my-provider'
-        service_account: 'new-service-account@my-project.iam.gserviceaccount.com'
+        service_account: 'new-service-account@docker-deploy-350218.iam.gserviceaccount.com'
 
     # Alternative option - authentication via credentials json
     #- id: 'auth'
